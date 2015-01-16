@@ -261,7 +261,7 @@
             }
         }
         s = ascii.join("");
-        s = s.replace(/[^\w\s-]/g, "").trim().toLowerCase();
+        s = s.replace(/[^\w\s-]/g, "").trim();
         return s.replace(/[-\s]+/g, "-");
     }
 
