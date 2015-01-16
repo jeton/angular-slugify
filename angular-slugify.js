@@ -275,7 +275,7 @@
         return {
             restrict: "E",
             scope: {
-                to: "=",
+                to: "="
             },
             transclude: true,
             replace: true,
